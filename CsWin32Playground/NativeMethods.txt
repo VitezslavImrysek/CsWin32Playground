@@ -2,6 +2,8 @@
 RegisterClassEx
 CreateWindowEx
 ShowWindow
+DestroyWindow
+PostQuitMessage
 
 GetMessage
 DispatchMessage
@@ -15,6 +17,10 @@ GetClientRect
 UpdateWindow
 ValidateRect
 LoadCursor
+
+D2D1CreateFactory
+ID2D1Factory
+SafeRelease
 
 // Constants
 CW_USEDEFAULT
